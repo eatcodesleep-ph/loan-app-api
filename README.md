@@ -3,6 +3,7 @@ An api use for loan app web for processing loan quotation and application
 
 ## Prerequisites
 - .NET 8 SDK
+- EF Core
 
 ## Configure
 Add User Secrets:
