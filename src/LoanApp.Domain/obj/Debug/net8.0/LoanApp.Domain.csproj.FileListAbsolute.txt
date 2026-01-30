@@ -1,0 +1,11 @@
+C:\Projects\loan-app-api\src\LoanApp.Domain\bin\Debug\net8.0\LoanApp.Domain.deps.json
+C:\Projects\loan-app-api\src\LoanApp.Domain\bin\Debug\net8.0\LoanApp.Domain.dll
+C:\Projects\loan-app-api\src\LoanApp.Domain\bin\Debug\net8.0\LoanApp.Domain.pdb
+C:\Projects\loan-app-api\src\LoanApp.Domain\obj\Debug\net8.0\LoanApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\loan-app-api\src\LoanApp.Domain\obj\Debug\net8.0\LoanApp.Domain.AssemblyInfoInputs.cache
+C:\Projects\loan-app-api\src\LoanApp.Domain\obj\Debug\net8.0\LoanApp.Domain.AssemblyInfo.cs
+C:\Projects\loan-app-api\src\LoanApp.Domain\obj\Debug\net8.0\LoanApp.Domain.csproj.CoreCompileInputs.cache
+C:\Projects\loan-app-api\src\LoanApp.Domain\obj\Debug\net8.0\LoanApp.Domain.dll
+C:\Projects\loan-app-api\src\LoanApp.Domain\obj\Debug\net8.0\refint\LoanApp.Domain.dll
+C:\Projects\loan-app-api\src\LoanApp.Domain\obj\Debug\net8.0\LoanApp.Domain.pdb
+C:\Projects\loan-app-api\src\LoanApp.Domain\obj\Debug\net8.0\ref\LoanApp.Domain.dll
