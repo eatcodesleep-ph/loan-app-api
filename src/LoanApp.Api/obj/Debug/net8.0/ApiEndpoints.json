@@ -1,0 +1,162 @@
+[
+  {
+    "ContainingType": "LoanApp.Api.Endpoints.AuthenticationEndpoint\u002B\u003C\u003Ec",
+    "Method": "\u003CMapAuthenticationEndpoints\u003Eb__0_0",
+    "RelativePath": "authentication/v1/",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "LoanApp.Application.DTOs.TokenRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Authentication"
+    ]
+  },
+  {
+    "ContainingType": "LoanApp.Api.Endpoints.LoanApplicationEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapLoanApplicationEndpoints\u003Eb__0_0",
+    "RelativePath": "loanApplication/v1/",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "LoanApp.Application.DTOs.CreateLoanApplicationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Loan Application"
+    ]
+  },
+  {
+    "ContainingType": "LoanApp.Api.Endpoints.LoanApplicationEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapLoanApplicationEndpoints\u003Eb__0_1",
+    "RelativePath": "loanApplication/v1/",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "LoanApp.Application.DTOs.UpdateLoanApplicationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Loan Application"
+    ]
+  },
+  {
+    "ContainingType": "LoanApp.Api.Endpoints.LoanApplicationEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapLoanApplicationEndpoints\u003Eb__0_2",
+    "RelativePath": "loanApplication/v1/{identityToken}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "identityToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Loan Application"
+    ]
+  },
+  {
+    "ContainingType": "LoanApp.Api.Endpoints.QuotationEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapQuotationEndpoints\u003Eb__0_0",
+    "RelativePath": "quotation/v1/calculate",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "amount",
+        "Type": "System.Decimal",
+        "IsRequired": true
+      },
+      {
+        "Name": "term",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "product",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Quotation"
+    ]
+  },
+  {
+    "ContainingType": "LoanApp.Api.Endpoints.RepaymentEndpoint\u002B\u003C\u003Ec",
+    "Method": "\u003CMapRepaymentEndpoints\u003Eb__0_0",
+    "RelativePath": "repayment/v1/generate",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "LoanApp.Application.DTOs.CreateRepaymentScheduleDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Repayment"
+    ]
+  }
+]
